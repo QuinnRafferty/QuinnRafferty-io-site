@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1584845688750.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "346891668",
+    "id" : "BF28047A",
+    "lastKnownWriteTime" : 1584845833,
+    "last_content_update" : 1584845833256,
+    "path" : "~/Professional Website Building/QuinnRafferty-io-site/QuinnRafferty-io-site/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "13,24",
+        "scrollLine" : "12",
+        "source_window_id" : ""
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

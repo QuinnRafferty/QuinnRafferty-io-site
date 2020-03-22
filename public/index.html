@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <title>Aafu theme</title>
+
+<meta name="theme-color" content="" />
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="QuinnRaffertyProfessionalSite" />
+<meta name="author" content="Quinn Rafferty" />
+<meta name="generator" content="aafu theme by Darshan in Hugo 0.68.0" />        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">        <link rel="manifest" href="site.webmanifest">        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="favicon.ico">        
+
+
+  <link
+    rel="stylesheet"
+    href="/css/bootstrap/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="//fonts.googleapis.com/css?family=Didact+Gothic%7CRoboto:400%7CRoboto+Mono"
+  />
+  <link rel="stylesheet" href="/css/aafu_light.css" />
+  <link rel="stylesheet" href="/css/aafu.css" />
+
+  <script>
+    var themeColor = document.querySelector("meta[name=theme-color]");
+    window.onload = () => {
+      themeColor.content = getComputedStyle(document.body)["background-color"];
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+    window.onresize = () => {
+      let defaultActivePanel = document.querySelector(".accordion.active");
+      if (defaultActivePanel) {
+        defaultActivePanel.nextElementSibling.style.maxHeight =
+          defaultActivePanel.nextElementSibling.scrollHeight + "px";
+      }
+    };
+  </script>
+</head>
+<body class="container">
+    <main style="min-height: calc(100vh - 60px);">
+      
+      <div class="d-flex flex-row row p-2">
+  <h3 class="main-menu mr-3">
+    <a href="/">Home</a>
+  </h3>
+  <h3 class="main-menu mr-3">
+    <a href="/blog">Blog</a>
+  </h3>
+</div>
+
+      
+<div class="ml-auto mr-auto row row-eq-height rounded">
+  <div class="col-md-5 text-center p-2 mt-1">
+    <div class="profile-area rounded text-center position-relative shadow">
+      <div class="d-flex justify-content-center pt-2">
+  <div class="w-100 h-100">
+    <img
+      class="rounded rounded-circle mt-4"
+      src="/images/profile.jpg"
+      alt="Quinn Rafferty"
+      style="width: 95%; max-width: 300px;"
+    />
+  </div>
+</div>
+
+      <div class="p-2">
+        <h1 class="mb-0">Quinn Rafferty</h1>
+<h2 class="mb-0">IHME Post Bachelor Fellow</h2>
+<h3 class="mb-0">San Diego, California</h3>
+<div class="mt-2 d-flex flex-wrap justify-content-center">
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://www.linkedin.com/in/quinnrafferty/">
+      <i class="zoomlink mt-1 fab fa-linkedin-in"></i>
+    </a>
+  </div>
+  
+  <div style="height:45px; width:45px;">
+    <a href="https://github.com/QuinnRafferty">
+      <i class="zoomlink mt-1 fab fa-github"></i>
+    </a>
+  </div>
+  
+</div>
+ <footer class=" mt-2 mb-2 ">
+  <span class="markdownify"><em>-theme created by darshan-</em></span>
+  <span style="font-size:0px;">
+    &middot;
+    <i>
+      <a href="https://github.com/darshanbaral/aafu">
+        aafu
+      </a>
+    </i>
+    by
+    <a href="https://www.darshanbaral.com/">
+      darshan
+    </a>
+  </span>
+</footer>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 pt-2 mt-3">
+    
+    <h2 class="accordion  active ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-user"></i>
+        About Me</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <p class="markdownify">
+  Hello and welcome to my professional website and blog! My name is Quinn Rafferty (she/her/hers) and I love statistics, data, and health. I recently obtained my Bachelor&rsquo;s degree in <strong>Applied Mathematics &amp; Statistics</strong> with a concentration in <strong>Community and Global Health</strong> from Macalester College in St. Paul, Minnesota. This upcoming September I will join the <strong>Institute for Health Metrics and Evaluatio</strong>n as a <strong>Post Bachelor Fellow</strong> (PBF) in Seattle, Washington. Through the IHME, I plan to pursue my <strong>Master&rsquo;s of Science degree in Health Statistics and Evaluation</strong> at the University of Washington.
+</p>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-briefcase"></i>
+        Experiences</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt class="mb-0">
+    Development Intern
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">January 2020 - Present</span>
+    &middot;
+    
+    <a href="https://unitedstatesofcare.org/">United States of Care</a>
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">The United States of Care is a non-partisan, non-profit that aims to build and mobilize a movement that will achieve long-lasting solutions to make health care better for everyone.As an Development intern I report directly to the Senior Director of Development, engage and research prospective donors, corporate donor support and, plan fundraising activities. I also organize and assist with the start-up and maintenance of new customer relationship management (Raiser&rsquo;s Edge NXT) software and other databases. The contribution I am most proud of is my work on creating a more robust database for the organizations Founder&rsquo;s Council and Entrepenur&rsquo;s Council. This addition allows anyone in our organization to quickly identify the best prosepctive donors within this +200 cohort.</dd>
+</dl>
+
+<dl>
+  <dt class="mb-0">
+    Facilities Data Analyst
+  </dt>
+  <dd class="mb-0 ml-3">
+    <span class="markdownify">January 2019 - Present</span>
+    &middot;
+    
+    Macalester Facilities &amp; Sustainability Department
+    
+  </dd>
+  <dd class="mb-0 ml-4 markdownify">As the Faciltiies Data Analyst my main duties are inputting weekly data from 3-6 different sources for waste, recyclables and composting from campus wide resources and outside public facilities. I then analyze this data and create a monthly report that includes aspects such as diversion rates, monthly percentages and mapping trends for Macalester&rsquo;s Zero Waste. Through this position I had the opportunity to lead two major student projects and groups that contributed and addressed environmental injustices and sustainability practices.</dd>
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-graduation-cap"></i>
+        Education</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+<dl>
+  <dt>B.S. in Applied Mathemetics &amp; Statistics with a concentration in Community and Global Health</dt>
+  <dd class="mb-0 ml-3">2016 - 2020 &middot; Macalester College</dd>
+  
+</dl>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class=""></i>
+        </span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-project-diagram"></i>
+        Projects</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <dl>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+  <dt>
+    <a href="#" style="font-variant: small-caps; ">project</a>
+  </dt>
+  <dd class="mb-0 ml-3 markdownify">Description of the project</dd>
+  
+</dl>
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-cogs"></i>
+        Skills</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+      id="skill-panel"
+      
+    >
+      <script>
+  let skillPanel = document.querySelector("#skill-panel")
+    .previousElementSibling;
+  skillPanel.addEventListener("click", function() {
+    let skillBars = document.querySelectorAll("#skill-percent");
+    skillBars.forEach(elem => {
+      elem.style.width = elem.classList[0];
+    });
+  });
+</script>
+
+<code>Mircosoft Excel, Access, Word, PowerPoint</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="95%" style="width: 0;"></div>
+</div>
+
+<code>Public Speaking</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="90%" style="width: 0;"></div>
+</div>
+
+<code>Project Management</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="90%" style="width: 0;"></div>
+</div>
+
+<code>R (tidyverse, ggplot, dplyr)</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="85%" style="width: 0;"></div>
+</div>
+
+<code>Python</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="60%" style="width: 0;"></div>
+</div>
+
+<code>LaTex</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="55%" style="width: 0;"></div>
+</div>
+
+<code>SQL</code>
+<div class="w-100 skillbar mt-1 mb-3">
+  <div id="skill-percent" class="50%" style="width: 0;"></div>
+</div>
+
+
+    </div>
+    
+    <h2 class="accordion ">
+      
+      <span onclick="expandAccordion(this)" style="cursor: pointer;">
+        <i class="fas fa-gamepad"></i>
+        Hobbies</span>
+    </h2>
+    <div
+      class="panel overflow-hidden"
+      
+    >
+      <ul class="pl-0">
+  
+  <li class="list-unstyled mb-2">Cooking</li>
+  
+  <li class="list-unstyled mb-2">Hiking</li>
+  
+  <li class="list-unstyled mb-2">Baking</li>
+  
+</ul>
+
+    </div>
+    
+    <script src="/js/accordion.js"></script>
+  </div>
+</div>
+
+    </main>
+    
+  </body>
+</html>
